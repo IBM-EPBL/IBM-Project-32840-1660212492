@@ -1,0 +1,13 @@
+{% extends 'base.html' %} {% block body %}
+<div style="margin-top: 50px; margin-left: 400px">
+  <p>Currently your MONTHLY limit is ₹ 25,000</p>
+  <form action="/limitnum">
+    <p>ENTER the MONTHLY LIMIT to avoid over EXPENSES</p>
+    <br />
+    <input type="number" name="number" required />
+    <span>
+      <button class="btn btn-warning" type="submit">ENTER</button>
+    </span>
+  </form>
+</div>
+{% endblock %}
