@@ -1,0 +1,44 @@
+{% extends 'base.html' %} {% block body %}
+<style>
+  H1 {
+    color: RED;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+
+  p {
+    margin-right: 100px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  span {
+    font-size: 14px;
+  }
+
+  .ccc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -200px;
+  }
+</style>
+<div id="aa" class="container">
+  <div class="ccc">
+    <img style="margin-left: 100px" src="../static/images/images (13).jpeg" />
+    <div>
+      <h1>LET'S START THE JOURNEY</h1>
+      <p>
+        PNT 2022 TMID 20405 web application helps you to maintain budget and
+        analyze the expense.
+      </p>
+      <img
+        height="13%"
+        width="13%"
+        style="margin-left: 120px"
+        src="../static/images/istockphoto-943300706-612x612.jpg"
+      />
+      <span class="btn btn-outline-dark">Let's Begin</span>
+    </div>
+  </div>
+  {% endblock %}
+</div>
